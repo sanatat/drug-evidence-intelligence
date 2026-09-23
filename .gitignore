@@ -1,0 +1,40 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example
+
+# Local databases and generated outputs
+*.db
+*.db-shm
+*.db-wal
+data/*.db
+AGGREGATE_RESULTS.md
+model_benchmark.csv
+evaluation/*_details.csv
+
+# Private or copyrighted source material
+private_sources/
+data/source_pdfs/
+data/uploads/**
+!data/uploads/.gitkeep
+data/inbox/**
+!data/inbox/.gitkeep
+*.pdf
+*.rar
+*.7z
+*.zip
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,7 @@
+drug,source,document_name,field_path,value_type,expected_value,page,tolerance,annotator,notes
+Regorafenib,USP,Regorafenib-usp.pdf,quality.assay_min,numeric,,,0.01,,Fill manually from licensed source
+Regorafenib,USP,Regorafenib-usp.pdf,quality.assay_max,numeric,,,0.01,,Fill manually from licensed source
+Regorafenib,FDA,Regorafenib-fda.pdf,clinical.indication,text,,,,,
+Regorafenib,EMA,Regorafenib=ema.pdf,clinical.indication,text,,,,,
+Regorafenib,NICE,regorafenib-nice.pdf,clinical.comparator,text,,,,,
+Regorafenib,NICE,regorafenib-nice.pdf,clinical.cost_effectiveness,text,,,,,
