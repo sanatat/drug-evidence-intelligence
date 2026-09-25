@@ -26,6 +26,18 @@ Drug evidence is fragmented across pharmacopoeial monographs, regulatory reviews
 - identify independent study effect estimates;
 - generate an **exploratory** inverse-variance meta-analysis for compatible HR/RR/OR estimates;
 - evaluate extraction against a manually annotated gold standard.
+- 
+- ## Dataset
+
+The pilot dataset associated with this project is publicly available on Mendeley Data:
+
+**Drug Evidence Intelligence: Derived Pilot Metadata for Cross-Regional Pharmacopoeial and Regulatory Evidence Comparison**
+
+**DOI:** https://doi.org/10.17632/p63y9h3yhm.1
+
+The dataset contains derived metadata, validation and audit information, and a manual gold-standard template for the pilot corpus.
+
+The dataset is intended to support reproducibility and evaluation of the extraction and comparison workflow described in this repository.
 
 ## Methodological inspiration
 
